@@ -1,3 +1,3 @@
 .PHONY: test
 test: .test
-	ln -s $(PWD)/$^ $(HOME)/$^
+	@ln -snfv $(PWD)/$^ $(HOME)/$^
