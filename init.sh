@@ -5,4 +5,4 @@ if [[ ! -x $(command -v git) ]]; then
   exit
 fi
 
-echo "Hello, world!"
+make
